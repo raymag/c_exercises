@@ -14,5 +14,6 @@ int main()
     printf("Factorial of? ");
     scanf("%i", &num);
     printf("Factorial of %i is %i", num, factorial(num, 1));
+    scanf("%i", num);
     return 0;
 }

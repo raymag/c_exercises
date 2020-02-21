@@ -17,6 +17,6 @@ int main()
         last = penult;
         penult = current;
     }
-
+    scanf("%i", amount);
     return 0;
 }
