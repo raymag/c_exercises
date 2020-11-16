@@ -5,7 +5,7 @@ int main()
 {
     int numbers[N];
     printf("Insert %d numbers:\n", N);
-    for (int i=0;i<N;i++)
+    for (int i=0;i<=N;i++)
     {
         printf(">> ");
         scanf("%d", &numbers[i]);
